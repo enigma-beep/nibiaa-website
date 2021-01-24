@@ -5798,6 +5798,7 @@ body {
   padding: 60px 0;
 }
 
+
 .border-section-container {
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
@@ -6112,3 +6113,113 @@ textarea {
 }
 
 /*# sourceMappingURL=main.41beeca9.map*/
+.text-box{
+  width: 300px;
+  height: 100px;
+  box-sizing: border-box;
+}
+
+.background-image-solution{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ),
+  url('/assets/images/our_solution.jpg');
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 12% 0;
+}
+.text-solution{
+  position: relative;
+  bottom:80px;
+}
+.aboutus-text-container{
+  margin:auto ;
+  text-align:left;
+}
+
+.founder-container{
+  padding: 0 16px;
+  /*background-color: #4ac4b6;*/
+}
+
+.founder-container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  margin-left: 125px;
+  padding: 0 8px;
+}
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.card {
+  box-shadow: 0px 0px 8px 8px rgba(66, 200, 181, 1);
+  border-radius: 22px;
+}
+.founder-button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    text-decoration: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+a:link{
+  text-decoration: none;
+}
+a:visited{
+  text-decoration: none;
+}
+.founder-button:hover{
+  background-color: #4ac4b6;
+}
+
+.devteam-container{
+  padding: 0 16px;
+  /*background-color: #4ac4b6;*/
+}
+
+.devteam-container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.devteam-column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  margin-left: 100px;
+  padding: 0 8px;
+  padding-bottom: 40px;
+}
+@media screen and (max-width: 650px) {
+  .devteam-column {
+    width: 100%;
+    display: block;
+  }
+}
+.devteam-card {
+  border-radius: 22px;
+}
+.footer-container-aboutus {
+  padding: 30px 0;
+}
